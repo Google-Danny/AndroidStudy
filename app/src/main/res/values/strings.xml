@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NetWorkProGrammingLearn</string>
+    <string name="hello_world">Hello!</string>
+    <string name="btn1_text">android button!</string>
+</resources>

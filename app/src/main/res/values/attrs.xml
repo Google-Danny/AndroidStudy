@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomButton">
+        <attr name="buttonColor" format="color"></attr>
+        <attr name="buttonWidth" format="dimension"></attr>
+        <attr name="buttonHeight" format="dimension"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="buttonTextColor" format="color"></attr>
+        <attr name="topBorder" format="color"></attr>
+        <attr name="leftBorder" format="color"></attr>
+        <attr name="rightBorder" format="color"></attr>
+        <attr name="bottomBorder" format="color"></attr>
+    </declare-styleable>
+        <declare-styleable name="LineChar">
+            <attr  name="xylinecolor" format="color"/><!-- xy坐标轴颜色 -->
+            <attr  name="xylinewidth" format="dimension"/><!-- xy坐标轴宽度 -->
+            <attr  name="xytextcolor" format="color"/><!-- xy坐标轴文字颜色 -->
+            <attr name="xytextsize" format="dimension"/><!-- xy坐标轴文字大小 -->
+            <attr name="linecolor" format="color"/><!-- 折线图中折线的颜色 -->
+            <attr name="interval" format="dimension"/><!-- x轴各个坐标点水平间距 -->
+            <attr name="bgcolor" format="color"/><!-- 背景颜色 -->
+        </declare-styleable>
+
+
+</resources>

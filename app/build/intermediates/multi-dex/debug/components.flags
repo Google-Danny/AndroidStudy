@@ -1,0 +1,64 @@
+-injars 'E:\blueTooth\NetWorkProGrammingLearn\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'E:\blueTooth\NetWorkProGrammingLearn\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\androidSDK\sdk\build-tools\25.0.0\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration 'E:\blueTooth\NetWorkProGrammingLearn\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.cm.xingyu.networkprogramminglearn.MainActivity {
+    <init>();
+}
+
+-keep class com.cm.xingyu.networkprogramminglearn.AnimationLearn.AnimationActivity {
+    <init>();
+}
+
+-keep class com.cm.xingyu.networkprogramminglearn.WebViewLearn.WebJsActiviry {
+    <init>();
+}
+
+-keep class com.cm.xingyu.networkprogramminglearn.FileSaveAndRead.FileReadAndWrite {
+    <init>();
+}
+
+-keep class com.cm.xingyu.networkprogramminglearn.CustomeGraphic.CustomTestActivity {
+    <init>();
+}
+
+-keep class com.cm.xingyu.networkprogramminglearn.RxJavaLean.RxJavaExcute {
+    <init>();
+}
+
+-keep class com.cm.xingyu.networkprogramminglearn.AIDLLearn.RemoteService {
+    <init>();
+}
+
+-keep class com.cm.xingyu.networkprogramminglearn.CustomeGraphic.HeartAnim {
+    <init>();
+}
+
+-keep class com.cm.xingyu.networkprogramminglearn.LineChart.LineChartActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

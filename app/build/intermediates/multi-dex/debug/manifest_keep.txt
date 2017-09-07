@@ -1,0 +1,19 @@
+-keep class com.cm.xingyu.networkprogramminglearn.MainActivity { <init>(); }
+-keep class com.cm.xingyu.networkprogramminglearn.AnimationLearn.AnimationActivity { <init>(); }
+-keep class com.cm.xingyu.networkprogramminglearn.WebViewLearn.WebJsActiviry { <init>(); }
+-keep class com.cm.xingyu.networkprogramminglearn.FileSaveAndRead.FileReadAndWrite { <init>(); }
+-keep class com.cm.xingyu.networkprogramminglearn.CustomeGraphic.CustomTestActivity { <init>(); }
+-keep class com.cm.xingyu.networkprogramminglearn.RxJavaLean.RxJavaExcute { <init>(); }
+-keep class com.cm.xingyu.networkprogramminglearn.AIDLLearn.RemoteService { <init>(); }
+-keep class com.cm.xingyu.networkprogramminglearn.CustomeGraphic.HeartAnim { <init>(); }
+-keep class com.cm.xingyu.networkprogramminglearn.LineChart.LineChartActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
